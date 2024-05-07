@@ -1,0 +1,12 @@
+
+###Post Notes
+POST http://localhost:8080/api/notes
+Content-Type: application/json
+#Cookie: key=first-key
+
+{ "title": "seconds NOIE", "content": "This is my second note"}
+
+
+###Get A Note
+GET http://localhost:8080/api/notes/3
+
